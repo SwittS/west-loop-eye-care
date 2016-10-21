@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>West Loop Eye Care</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.scss"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script>
+function initialize() {
+var map_canvas = document.getElementById('map-canvas');
+var map_options = { center: new google.maps.LatLng(41.879867, -87.651156),
+zoom: 15,
+mapTypeId: google.maps.MapTypeId.ROADMAP
+}
+var map = new google.maps.Map(map_canvas, map_options)
+var myLatlng = new google.maps.LatLng(41.879867, -87.651156);
+var marker = new google.maps.Marker({
+position: myLatlng,
+map: map,
+title: 'West Loop Eye Care'
+});
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+  </head>
+  <body>
+    <div class="navbar-fixed">
+    <nav>
+  <div class="nav-wrapper nav-color">
+    <a href="#!" class="brand-logo">West Loop Eye Care</a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="#aboutus">About Us</a></li>
+      <li><a href="#ourservices">Our Services</a></li>
+      <li><a href="#doctors">Doctors</a></li>
+      <li><a href="#insurance">Insurance</a></li>
+      <li><a href="#appointments">Appointments</a></li>
+      <li><a href="#contactus">Contact Us</a></li>
+    </ul>
+    <ul class="side-nav" id="mobile-demo">
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Our Services</a></li>
+      <li><a href="#">Doctors</a></li>
+      <li><a href="#">Insurance</a></li>
+      <li><a href="#">Appointments</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+</div>
+
+<div class="welcome"></div>
+<div class="break"></div>
+<div class="wrapper">
+  <div class="row">
+  <div id="aboutus" class="col s12 m6 l7 black-text">
+    <h3>about us:</h3>
+    <p class="flow-text">Located a few short blocks from Chicago's dynamic downtown, West Loop Eye Care brings together a group of experienced doctors and staff, designer frames, superior contact lens fitting and its own lens lab to provide a level of service that you not only expect, but deserve.</p>
+    <p class="flow-text">Our aim is to provide you and your family not only with a pair of glasses or contacts that fit and provide excellent vision, they will fit your personality as well. Admit it, feeling good is a large part of looking good, and we are committed to making you feel good about your eye care experience. We welcome patients of all ages. If it's your child's first pair of glasses or contacts, we are glad to help. We understand that this can be a major experience for both parents and children.</p>
+    <p class="flow-text">Poke around the site for as long as you want. Get to meet our doctors, take a good long look at our glasses frames and the many vendors who bring them to us. Check on your insurance. We work with most of the major carriers. If we have something new happening, like a trunk show, look for it in the news section.</p>
+    <p class="flow-text">Making an appointment is a simple telephone call or, if you like, use your computer or mobile device to make an appointment over the net. Nothing to it! We have a multi-lingual staff that can also help you in Spanish and Polish.</p>
+    <p class="flow-text">We would love to help you see and look better while doing it!</p>
+  </div>
+  <div class="logos col s12 m6 l5 black-text logos-color">
+    <h3>our eyeware:</h3>
+    <p class="flow-text">We are pleased to offer you a very diverse and stylish selection of eyeglass frames. If your interest is in a frame for daily wear, sporting activity or leisure wear, we probably have exactly what you need. Click on any of the logos below and visit the sites and products that our frame suppliers carry.</p>
+    <p class="flow-text">Have fun looking!</p>
+    <div class="row">
+      <div class="col s12 m6 l6"><img src="./images/etnia.svg" alt="etnia" class="logo-img"></div>
+      <div class="col s12 m6 l6"><img src="./images/giorgio.svg" alt="giorgio" class="logo-img"></div>
+    </div>
+    <div class="row">
+      <div class="col s12 m6 l6"><img src="./images/maui.svg" alt="maui" class="logo-img"></div>
+      <div class="col s12 m6 l6"><img src="./images/prada.svg" alt="maui" class="logo-img"></div>
+    </div>
+    <div class="row">
+      <div class="col s12 m6 l6"><img src="./images/rayban.svg" alt="rayban" class="logo-img"></div>
+      <div class="col s12 m6 l6"><img src="./images/versace.svg" alt="versace" class="logo-img"></div>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper-doctor">
+  <div id="doctors" class="row doctors-color white-text">
+    <h3>our doctors:</h3>
+    <div class="col s3 m3 l3">
+      <img src="./images/default.png" alt="doctor1" class="circle responsive-img doctor"/>
+      <h5>Helen Tzanetakos, O.D.</h5>
+      <p class="flow-text">Education: Loyola University - Chicago, Illinois College of Optometry</p>
+      <p class="flow-text">Helen Tzanetakos wants the world to see you as clearly as you'll see the world.It's her ability to connect with patients and to form lasting relationships that she excels in as a Doctor of Optometry. At Vision Boutique, it is Helen's personal mission to keep your eyes as fashionable as they are clear-sighted. Her best tip for your eyes? Computers cause most contact lens wearers dryness and discomfort. Get your eyes checked every year to make sure you have the best contacts for the job.</p>
+
+    </div>
+    <div class="col s3 m3 l3">
+      <img src="./images/default.png" alt="doctor2" class="circle responsive-img doctor"/>
+      <h5>Malgorzata Kiwacz, O.D.</h5>
+      <p class="flow-text">Education: Loyola University - Chicago, Illinois College of Optometry</p>
+      <p class="flow-text">
+        Born and raised in Krakow, Poland, Malgorzata Kiwacz has made Chicago her home since she was 13. Now, if she isn't out biking, she's busy making sure Chicagoans get a picture perfect view of the world. Margaret became a Doctor of Optometry because, in part, she enjoys Pediatrics and working
+        with children. She's also happy to share the most unusual fact she learned in school: Eyes blink 10 million times per year.</p>
+    </div>
+    <div class="col s3 m3 l3">
+      <img src="./images/default.png" alt="doctor3" class="circle responsive-img doctor"/>
+      <h5>Neil Boldus, O.D.</h5>
+      <p class="flow-text">Education: University of Wisconsin - Madison, Illinois College of Optometry</p>
+      <p class="flow-text">
+        When he's not busy bringing vision to the masses, Neil Boldus
+        works on his golf game, where he gives his sight and handicap
+        a workout. As a Doctor of Optometry, Neil has a knack for
+        difficult contact lens fits, taking the time and care his patientsneed. His best tip for your eyes? Wear sunglasses. They protect your eyes and the face around them. They're not just for being cool.</p>
+    </div>
+    <div class="col s3 m3 l3">
+      <img src="./images/default.png" alt="doctor4" class="circle responsive-img doctor"/>
+    <h5>Faye Gamboa, O.D.</h5>
+    <p class="flow-text">Education: University of Illinois - Chicago, Illinois College of Optometry</p>
+    <p>She is known as an extreme nap taker. She will look at your eyes and say they are dry and you have allergies. Her best tip is to eat more carrots because of the vitamins.</p>
+    </div>
+  </div>
+</div>
+<div id="insurance" class="insurance insurance-color">
+<br>
+<h3 class="black-text">our insurance:</h3>
+<div class="container">
+  <p class="flow-text">
+    Below you will see the Insurance companies whose policies we currently honor. If your carrier isn't listed, it doesn't mean that we can't help you. Call or email us and we'll be happy to see what can be done for you. Click on the carrier's name(s) to your left to be directed to their home page.
+  </p>
+  <div class="row">
+
+  <div class="col s4 m4 l4">
+    <ul>
+      <li>Always Care</li>
+      <li>Blue Cross/Blue Shield</li>
+      <li>Campus Care</li>
+      <li>Coast to Coast</li>
+    </ul>
+  </div>
+  <div class="col s4 m4 l4">
+    <ul>
+      <li>Davis Vision</li>
+      <li>EyeMed</li>
+      <li>Humana One</li>
+      <li>NVA</li>
+    </ul>
+  </div>
+  <div class="col s4 m4 l4">
+    <ul>
+      <li>Optum Health/Spectera</li>
+      <li>Superior Vision</li>
+      <li>VBA</li>
+      <li>VCP/Comp Benefits</li>
+      <li>VSP</li>
+    </ul>
+  </div>
+</div>
+</div>
+</div>
+<div class="promise">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m6 l6"></div>
+      <div class="col s12 m6 l6">
+        <h4 class="promise-header">our promise:</h4>
+        <blockquote>
+          <p class="flow-text">
+            Our doctors and staff will provide the highest level of service to every patient we see. We will continually strive to improve the eye care experience, from the comfort of our facility, to the examination, frame or contact selection and fittings. We stand behind the quality of our products, and our services and our people.
+          </p>
+          <p class="flow-text">
+            Rest assured, if you have a concern or problem, we will listen to you. If by chance, you are dissatisfied with any facet of your experience with us, by all means let us know. We will make it right, and that is our promise.
+          </p>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="contactus" class="contactus">
+  <div class="row">
+    <div class="col s12 m6 m6">
+      <div id="map-canvas"></div>
+    </div>
+    <div class="s12 m6 m6 center">
+      <h4>Contact Us</h4>
+      <br>
+      <p>940 W. Adams St. Ste. 302</p>
+      <p>Chicago, IL 60607</p>
+      <p>312.432.0080</p>
+    </div>
+  </div>
+</div>
+
+
+
+  <footer id="footer" class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12 white-text">
+          <h5>Hours of operation:</h5>
+          <div class="col s12 m6 l6">
+            <ul>
+              <li>Monday</li>
+              <li>Tuesday</li>
+              <li>Wednesday</li>
+              <li>Thursday</li>
+              <li>Friday</li>
+              <li>Saturday</li>
+              <li>Sunday</li>
+            </ul>
+          </div>
+          <div class="col s12 m6 l6">
+            <ul>
+              <li>9:00 - 5:00pm</li>
+              <li>9:00 - 5:00pm</li>
+              <li>9:00 - 5:00pm</li>
+              <li>9:00 - 4:00pm</li>
+              <li>9:00 - 2:00pm</li>
+              <li>Closed</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col l6 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <a class="white-text" href="https://www.twitter.com"><img class='responsive-img circle' src='https://cdn2.iconfinder.com/data/icons/social-flat/512/twitter-128.png' height="20px" width="20px"></a>
+            <a class="white-text" href="https://www.facebook.com"><img class='responsive-img circle' src='https://cdn2.iconfinder.com/data/icons/social-flat/512/facebook-128.png' height="20px" width="20px"></a>
+            <a class="white-text" href="https://plus.google.com"><img class='responsive-img circle' src='            https://cdn2.iconfinder.com/data/icons/social-flat/512/googleplus-128.png' height="20px" width="20px"></a>
+            <a class="white-text" href="https://www.linkedin.com"><img class='facebook responsive-img circle' src='            https://cdn2.iconfinder.com/data/icons/social-flat/512/linkedin-128.png' height="20px" width="20px"></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright">
+      <div class="container">
+        Made by <a class="white-text" href="https://www.github.com/SwittS">Switt Srikulacheep</a>
+        <img class='github responsive-img circle' src='https://cdn2.iconfinder.com/data/icons/social-flat/512/github-128.png'
+        height="20px" width="20px">
+      </div>
+    </div>
+<a class="back-to-top btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+  </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+  </body>
+</html>

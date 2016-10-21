@@ -1,0 +1,71 @@
+body {
+  background-color: #F4F7F7;
+}
+
+p {
+  font-size: 1.2em !important;
+}
+.welcome {
+  background-image: url("../images/glasses.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+}
+
+.nav-color {
+  background-color: #1F4E5F
+}
+
+.logos-color {
+  background-color: #AACFD0;
+}
+
+.doctors-color {
+  background-color: #1F4E5F;
+}
+
+.insurance-color {
+  margin-top: -2%;
+}
+
+.promise {
+  background-color: #79A8A9;
+
+}
+.logo-img {
+  height: 175px;
+  width: 200px;
+}
+
+.wrapper-doctor {
+  margin-top: -8%;
+}
+
+.doctor {
+  margin-top: 12%;
+}
+
+.back-to-top {
+  position: fixed;
+}
+
+.promise-header {
+  margin-left: 55%;
+}
+
+blockquote {
+  border-left: 5px solid black;
+}
+
+#footer {
+  margin-top: 1%;
+  background-color: #1F4E5F;
+}
+
+#map-canvas {
+  width: 600px;
+  height: 300px;
+}
